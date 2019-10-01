@@ -16,19 +16,14 @@ header nav ul li{
 }
  h2 {
     color: #4A51E8;
-
 }
 main img{
     width: 100%;
     height:500px;
     display: block;
-    float: left;
-
 }
 footer {
     text-align: center;
     background-color: #AF99FF;
-    color:black;
-
-    
+    color:black;   
 }
