@@ -14,11 +14,11 @@ if (age < 10)   {
     result='read from reading section';  }
 document .write( ' <h3>' +result + '</h3>');
 console.log('hi');
-var calculate=prompt ("5!*4+3");
+var calculate=prompt ("5*7");
 
-while (calculate!= 643) {
+while (calculate!= 35) {
     calculate = prompt ("Sorry incorrect awnswer");
  }
-if (calculate == 643) {
+if (calculate == 35) {
 alert ("this is true");
 } 
