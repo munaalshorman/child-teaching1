@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(100,50,100);
+}
+header h1 {
+    color: #4A51E8;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #AF99FF
+}
+header nav ul li{
+    display: inline-block;
+    padding: 50px
+}
+ h2 {
+    color: #4A51E8;
+}
+main img{
+    width: 100%;
+    height:500px;
+    display: block;
+}
+footer {
+    text-align: center;
+    background-color: #AF99FF;
+<<<<<<< HEAD
+    color:black;
+}
+=======
+    color:black;   
+}
+>>>>>>> 4f1f81df3a38164ac87a831529f7c7e186c4b5cd
