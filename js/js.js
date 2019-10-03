@@ -1,9 +1,7 @@
 var name=prompt("WHAT IS YOUR NAME?")
 alert("hello  "+name);
+myFunction();
 function myFunction() {
-    confirm("Press a button!");
-  }
- myFunction()
 var age =prompt("Enter your age") ;
 var result ;
 if (age < 10)   {
@@ -14,11 +12,17 @@ if (age < 10)   {
     result='read from reading section';  }
 document .write( ' <h3>' +result + '</h3>');
 console.log('hi');
-var calculate=prompt ("5*7");
-
+var i;
+var say ="hello"
+for ( i=0 ; i<3 ; i++ ){
+ document.write('<p>' + say + '</p>')  
+}
+var calculate=prompt ("5*7=");
 while (calculate!= 35) {
     calculate = prompt ("Sorry incorrect awnswer");
  }
 if (calculate == 35) {
 alert ("this is true");
 } 
+confirm("Press a button!");
+}
