@@ -14,7 +14,8 @@ document .write( ' <h3>' +result + '</h3>');
 console.log('hi');
 var i;
 var say ="hello"
-for ( i=0 ; i<3 ; i++ ){
+var srr=prompt("How many repeate hello");
+for ( i=0 ; i<srr ; i++ ){
  document.write('<p>' + say + '</p>')  
 }
 var calculate=prompt ("5*7=");
