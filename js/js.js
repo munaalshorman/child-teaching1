@@ -9,7 +9,7 @@ if (age < 10)   {
 }else if( age >=10 && age <= 15){
     result = 'read from above 10';
 }else if (age>16) {
-    result='read from reading section';  }
+    result='read from reading sections';  }
 document .write( ' <h3>' +result + '</h3>');
 console.log('hi');
 var i;
